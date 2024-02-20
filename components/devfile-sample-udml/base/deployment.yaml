@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-udml
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0070-tenant/tkrw-pr712-0075-0070-app/devfile-sample-udml@sha256:541df05aae8abb0fb24c4aaec48043fa25da65ca7462406c0eea5e6ec479174b
         name: my-nodejs
         ports:
         - containerPort: 3001
